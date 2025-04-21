@@ -60,11 +60,6 @@ const Navbar = () => {
           Contact
         </Link>
       </div>
-
-      <div className="auth-btn">
-        <div className="sign-up">Sign Up</div>
-        <div className="sign-in">Sign In</div>
-      </div>
     </nav>
   );
 };

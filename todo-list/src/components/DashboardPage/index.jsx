@@ -59,9 +59,9 @@ const DashboardPage = () => {
               </div>
             </div>
 
-            <Link className="logout" to="/">
+            {/* <Link className="logout" to="/">
               Logout
-            </Link>
+            </Link> */}
           </div>
         </div>
       )}

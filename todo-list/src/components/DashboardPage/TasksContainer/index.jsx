@@ -17,7 +17,6 @@ const TasksContainer = () => {
   const { tasks, isDescriptionOpen } = useContext(FetchedContext);
 
   // setting up Filter Task Category for work events school
-
   const [filterTaskCategory, setFilterTaskCategory] = useState("all");
   const [taskCategoryBox, setTaskCategoryBox] = useState(false);
   const [editBox, setEditBox] = useState(false);

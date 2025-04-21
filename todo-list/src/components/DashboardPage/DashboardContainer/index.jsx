@@ -17,15 +17,15 @@ const DashboardContainer = () => {
       </div>
       <div className="status-container">
         <div className="total-tasks task-status">
-            <h1>{tasks?tasks.length:0}</h1>
+            <h2>{tasks?tasks.length:0}</h2>
             <p>Total Tasks</p>
         </div>
         <div className="pending-tasks task-status">
-        <h1>{pending}</h1>
+        <h2>{pending}</h2>
             <p>Pending Tasks</p>
         </div>
         <div className="completed-tasks task-status">
-        <h1>{completed}</h1>
+        <h2>{completed}</h2>
             <p>Complete Tasks</p>
         </div>
       </div>
